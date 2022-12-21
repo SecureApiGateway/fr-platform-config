@@ -1,1 +1,1 @@
-# sapig-openbanking-uk-fr-platform-config
+fr-platform-config
