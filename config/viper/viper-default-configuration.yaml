@@ -45,16 +45,9 @@ IDENTITY: # Root key for parameter values related with identity platform configu
   OBRI_SOFTWARE_PUBLISHER_AGENT_NAME: OBRI # software publisher agent name
   TEST_SOFTWARE_PUBLISHER_AGENT_NAME: test-publisher # test software publisher agent
   DEFAULT_USER_AUTHENTICATION_SERVICE: ldapService # configure the default user authentication service to use. ldapService should be used for CDK environments only.
-#  Example Google Secrets Configuration, uncomment once: https://github.com/SecureApiGateway/SecureApiGateway/issues/703 is completed
-  GOOGLE_SECRET_STORES: # Configure one or more Google Secret Stores
-    NAME: Open Banking Trust Store
-    SERVICE_ACCOUNT: default
-    PROJECT: sbat-dev
-    SECRET_FORMAT: PEM
-    EXPIRY_DURATION_SECONDS: 1800
-    SECRET_MAPPINGS: # Map one or more secrets to the store
-      SECRET_ID: am.services.oauth2.tls.client.cert.authentication
-      ALIAS: am-oauth2-ca-certs # name of the secret in google secrets manager
+  GOOGLE_SECRET_STORE_NAME: Google Secrets
+  GOOGLE_SECRET_STORE_PROJECT: sbat-dev # name of the Google Cloud project which contains the secrets
+  GOOGLE_SECRET_STORE_OAUTH2_CA_CERTS_SECRET_NAME: am-oauth2-ca-certs # Google Secrets Manager secret name for secret containing trusted OAuth2 CA certs
 
 USERS: # Root key users to be created or to authenticate and authorize flows
   FR_PLATFORM_ADMIN_USERNAME: amadmin # Identity platform Username with admin grants (must exist previously)
