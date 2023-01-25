@@ -567,6 +567,7 @@
           "FileContent": {
             "title": "File content",
             "type": "string",
+            "viewable": true,
             "description": "File content",
             "isVirtual": false
           },
