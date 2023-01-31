@@ -42,8 +42,8 @@ IDENTITY: # Root key for parameter values related with identity platform configu
   SERVICE_ACCOUNT_POLICY_PASSWORD: 0penBanking! # Service account for Open banking policy
   SERVICE_ACCOUNT_POLICY_EMAIL: obst@forgerock.com # Service account for Open banking policy
   REMOTE_CONSENT_ID: secure-open-banking-rcs # Identification of remote consent agent
-  REMOTE_CONSENT_PUBLIC_KEY_PEM: replace-me # RCS signing public key in PEM format
-  REMOTE_CONSENT_PUBLIC_KEY_KID: replace-me # RCS signing key keyId
+  REMOTE_CONSENT_SIGNING_PUBLIC_KEY: replace-me # RCS signing public key in PEM format
+  REMOTE_CONSENT_SIGNING_KEY_ID: replace-me # RCS signing key keyId
   OBRI_SOFTWARE_PUBLISHER_AGENT_NAME: OBRI # software publisher agent name
   TEST_SOFTWARE_PUBLISHER_AGENT_NAME: test-publisher # test software publisher agent
   DEFAULT_USER_AUTHENTICATION_SERVICE: ldapService # configure the default user authentication service to use. ldapService should be used for CDK environments only.
