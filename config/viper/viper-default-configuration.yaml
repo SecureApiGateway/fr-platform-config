@@ -42,10 +42,12 @@ IDENTITY: # Root key for parameter values related with identity platform configu
   SERVICE_ACCOUNT_POLICY_PASSWORD: 0penBanking! # Service account for Open banking policy
   SERVICE_ACCOUNT_POLICY_EMAIL: obst@forgerock.com # Service account for Open banking policy
   REMOTE_CONSENT_ID: secure-open-banking-rcs # Identification of remote consent agent
+  REMOTE_CONSENT_PUBLIC_KEY_PEM: replace-me # RCS signing public key in PEM format
+  REMOTE_CONSENT_PUBLIC_KEY_KID: replace-me # RCS signing key keyId
   OBRI_SOFTWARE_PUBLISHER_AGENT_NAME: OBRI # software publisher agent name
   TEST_SOFTWARE_PUBLISHER_AGENT_NAME: test-publisher # test software publisher agent
   DEFAULT_USER_AUTHENTICATION_SERVICE: ldapService # configure the default user authentication service to use. ldapService should be used for CDK environments only.
-  GOOGLE_SECRET_STORE_NAME: Google Secrets
+  GOOGLE_SECRET_STORE_NAME: Google Secrets # name of the store, for CDK this store will be created if it doesn't exist. For FIDC this name must match the name of the pre-configured Google Secrets Store
   GOOGLE_SECRET_STORE_PROJECT: sbat-dev # name of the Google Cloud project which contains the secrets
   GOOGLE_SECRET_STORE_OAUTH2_CA_CERTS_SECRET_NAME: am-oauth2-ca-certs # Google Secrets Manager secret name for secret containing trusted OAuth2 CA certs
 
