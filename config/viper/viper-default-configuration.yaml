@@ -44,6 +44,7 @@ IDENTITY: # Root key for parameter values related with identity platform configu
   REMOTE_CONSENT_ID: secure-open-banking-rcs # Identification of remote consent agent
   REMOTE_CONSENT_SIGNING_PUBLIC_KEY: replace-me # RCS signing public key in PEM format
   REMOTE_CONSENT_SIGNING_KEY_ID: replace-me # RCS signing key keyId
+  REMOTE_CONSENT_TIME_LIMIT_SECONDS: 900 # Time in seconds that the PSU has to complete the remote consent flow
   OBRI_SOFTWARE_PUBLISHER_AGENT_NAME: OBRI # software publisher agent name
   TEST_SOFTWARE_PUBLISHER_AGENT_NAME: test-publisher # test software publisher agent
   DEFAULT_USER_AUTHENTICATION_SERVICE: ldapService # configure the default user authentication service to use. ldapService should be used for CDK environments only.
