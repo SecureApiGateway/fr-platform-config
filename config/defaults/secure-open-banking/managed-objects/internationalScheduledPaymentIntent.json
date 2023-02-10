@@ -64,17 +64,6 @@
                     "description": "OB: Unique identification as assigned by the ASPSP to uniquely identify the consent resource.",
                     "nullable": false
                   },
-                  "IdempotencyKey": {
-                    "title": "Idempotency key",
-                    "type": "string",
-                    "viewable": true,
-                    "searchable": true,
-                    "userEditable": false,
-                    "minLength": 1,
-                    "maxLength": 128,
-                    "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
-                    "nullable": false
-                  },
                   "CreationDateTime": {
                     "title": "Creation Date Time",
                     "type": "string",
@@ -1196,7 +1185,6 @@
                 },
                 "order": [
                   "ConsentId",
-                  "IdempotencyKey",
                   "CreationDateTime",
                   "Status",
                   "StatusUpdateDateTime",
@@ -1214,7 +1202,6 @@
                 ],
                 "required": [
                   "ConsentId",
-                  "IdempotencyKey",
                   "CreationDateTime",
                   "Status",
                   "StatusUpdateDateTime",
@@ -1586,12 +1573,14 @@
           "OBIntentObjectType",
           "OBIntentObject",
           "user",
-          "apiClient"
+          "apiClient",
+          "IdempotencyKey"
         ],
         "required": [
           "OBVersion",
           "OBIntentObjectType",
-          "OBIntentObject"
+          "OBIntentObject",
+          "IdempotencyKey"
         ]
       },
       "iconClass": "fa fa-database",

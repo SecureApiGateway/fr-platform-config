@@ -64,17 +64,6 @@
                     "description": "OB: Unique identification as assigned by the ASPSP to uniquely identify the consent resource.",
                     "nullable": false
                   },
-                  "IdempotencyKey": {
-                    "title": "Idempotency key",
-                    "type": "string",
-                    "viewable": true,
-                    "searchable": true,
-                    "userEditable": false,
-                    "minLength": 1,
-                    "maxLength": 128,
-                    "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
-                    "nullable": false
-                  },
                   "CreationDateTime": {
                     "title": "Creation Date Time",
                     "type": "string",
@@ -712,7 +701,6 @@
                 },
                 "order": [
                   "ConsentId",
-                  "IdempotencyKey",
                   "CreationDateTime",
                   "Status",
                   "StatusUpdateDateTime",
@@ -727,7 +715,6 @@
                 ],
                 "required": [
                   "ConsentId",
-                  "IdempotencyKey",
                   "CreationDateTime",
                   "Status",
                   "StatusUpdateDateTime",
@@ -1091,6 +1078,17 @@
             "description": "Account id",
             "minLength": null,
             "isVirtual": false
+          },
+          "IdempotencyKey": {
+            "title": "Idempotency key",
+            "type": "string",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "minLength": 1,
+            "maxLength": 128,
+            "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
+            "nullable": false
           }
         },
         "order": [
@@ -1098,12 +1096,14 @@
           "OBIntentObjectType",
           "OBIntentObject",
           "user",
-          "apiClient"
+          "apiClient",
+          "IdempotencyKey"
         ],
         "required": [
           "OBIntentObjectType",
           "OBVersion",
-          "OBIntentObject"
+          "OBIntentObject",
+          "IdempotencyKey"
         ]
       },
       "iconClass": "fa fa-database",
