@@ -1573,12 +1573,14 @@
           "OBIntentObjectType",
           "OBIntentObject",
           "user",
-          "apiClient"
+          "apiClient",
+          "IdempotencyKey"
         ],
         "required": [
           "OBVersion",
           "OBIntentObjectType",
-          "OBIntentObject"
+          "OBIntentObject",
+          "IdempotencyKey"
         ]
       },
       "iconClass": "fa fa-database",

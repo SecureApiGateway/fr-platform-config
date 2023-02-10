@@ -569,6 +569,17 @@
             "type": "string",
             "description": "File content",
             "isVirtual": false
+          },
+          "IdempotencyKey": {
+            "title": "Idempotency key",
+            "type": "string",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "minLength": 1,
+            "maxLength": 128,
+            "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
+            "nullable": false
           }
         },
         "order": [
@@ -576,12 +587,16 @@
           "OBIntentObjectType",
           "OBIntentObject",
           "user",
-          "apiClient"
+          "apiClient",
+          "AccountId",
+          "FileContent",
+          "IdempotencyKey"
         ],
         "required": [
           "OBVersion",
           "OBIntentObjectType",
-          "OBIntentObject"
+          "OBIntentObject",
+          "IdempotencyKey"
         ]
       },
       "iconClass": "fa fa-database",
