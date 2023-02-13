@@ -1088,7 +1088,7 @@
             "minLength": 1,
             "maxLength": 128,
             "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
-            "nullable": false
+            "nullable": true
           }
         },
         "order": [
