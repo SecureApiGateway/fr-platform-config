@@ -580,6 +580,17 @@
             "maxLength": 128,
             "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
             "nullable": false
+          },
+          "IdempotencyKeyFile": {
+            "title": "Idempotency key for file content submission",
+            "type": "string",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "minLength": 1,
+            "maxLength": 128,
+            "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request to submit the file is the same as early",
+            "nullable": false
           }
         },
         "order": [
@@ -590,7 +601,8 @@
           "apiClient",
           "AccountId",
           "FileContent",
-          "IdempotencyKey"
+          "IdempotencyKey",
+          "IdempotencyKeyFile"
         ],
         "required": [
           "OBVersion",
