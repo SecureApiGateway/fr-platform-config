@@ -1396,21 +1396,43 @@
             "maxLength": 128,
             "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
             "nullable": false
+          },
+          "IdempotencyKeyExpiration": {
+            "title": "Idempotency key expiration",
+            "type": "number",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "description": "'x-idempotency-key' date time expiration in seconds",
+            "nullable": false
+          },
+          "Oauth2ClientId": {
+            "title": "OAuth2 Client ID",
+            "type": "string",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "description": "OAuth2 Client ID",
+            "isVirtual": false
           }
         },
         "order": [
           "OBVersion",
           "OBIntentObjectType",
           "OBIntentObject",
-          "user",
           "apiClient",
-          "IdempotencyKey"
+          "Oauth2ClientId",
+          "user",
+          "IdempotencyKey",
+          "IdempotencyKeyExpiration"
         ],
         "required": [
-          "OBVersion",
           "OBIntentObjectType",
+          "OBVersion",
           "OBIntentObject",
-          "IdempotencyKey"
+          "IdempotencyKey",
+          "IdempotencyKeyExpiration",
+          "Oauth2ClientId"
         ]
       },
       "iconClass": "fa fa-database",

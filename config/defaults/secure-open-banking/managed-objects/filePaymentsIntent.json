@@ -581,8 +581,17 @@
             "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
             "nullable": false
           },
+          "IdempotencyKeyExpiration": {
+            "title": "Idempotency key expiration",
+            "type": "number",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "description": "'x-idempotency-key' date time expiration in seconds",
+            "nullable": false
+          },
           "IdempotencyKeyFile": {
-            "title": "Idempotency key for file content submission",
+            "title": "Idempotency key file",
             "type": "string",
             "viewable": true,
             "searchable": true,
@@ -591,6 +600,24 @@
             "maxLength": 128,
             "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request to submit the file is the same as early",
             "nullable": false
+          },
+          "IdempotencyKeyExpirationFile": {
+            "title": "Idempotency key expiration file",
+            "type": "number",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "description": "'x-idempotency-key' date time expiration in seconds for file content submission",
+            "nullable": false
+          },
+          "Oauth2ClientId": {
+            "title": "OAuth2 Client ID",
+            "type": "string",
+            "viewable": true,
+            "searchable": true,
+            "userEditable": false,
+            "description": "OAuth2 Client ID",
+            "isVirtual": false
           }
         },
         "order": [
@@ -602,13 +629,16 @@
           "AccountId",
           "FileContent",
           "IdempotencyKey",
-          "IdempotencyKeyFile"
+          "IdempotencyKeyExpiration",
+          "IdempotencyKeyFile",
+          "IdempotencyKeyExpirationFile"
         ],
         "required": [
           "OBVersion",
           "OBIntentObjectType",
           "OBIntentObject",
-          "IdempotencyKey"
+          "IdempotencyKey",
+          "IdempotencyKeyExpiration"
         ]
       },
       "iconClass": "fa fa-database",
