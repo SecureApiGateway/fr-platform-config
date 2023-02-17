@@ -1157,7 +1157,7 @@
                       "Name",
                       "SecondaryIdentification"
                     ],
-                    "description": "Only incuded in the response if `Data. ReadRefundAccount` is set to `Yes` in the consent.",
+                    "description": "Only included in the response if `Data. ReadRefundAccount` is set to `Yes` in the consent.",
                     "isVirtual": false,
                     "nullable": false
                   }
@@ -1433,9 +1433,6 @@
                   "FirstAvailableDateTime",
                   "LastAvailableDateTime",
                   "TotalPages"
-                ],
-                "required": [
-                  "Self"
                 ],
                 "description": "Meta Data relevant to the payload",
                 "isVirtual": false
