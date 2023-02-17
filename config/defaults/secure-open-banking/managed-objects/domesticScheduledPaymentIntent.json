@@ -1112,13 +1112,13 @@
             "description": "OB: Header value of 'x-idempotency-key' sent in the request as unique request identification to recognize if the request is the same as early",
             "nullable": false
           },
-          "IdempotencyKeyExpiration": {
+          "IdempotencyKeyExpirationTime": {
             "title": "Idempotency key expiration",
             "type": "number",
             "viewable": true,
             "searchable": true,
             "userEditable": false,
-            "description": "'x-idempotency-key' date time expiration in seconds",
+            "description": "'x-idempotency-key' date time expiration in seconds since unix epoch",
             "nullable": false
           },
           "Oauth2ClientId": {
@@ -1139,14 +1139,14 @@
           "Oauth2ClientId",
           "user",
           "IdempotencyKey",
-          "IdempotencyKeyExpiration"
+          "IdempotencyKeyExpirationTime"
         ],
         "required": [
           "OBIntentObjectType",
           "OBVersion",
           "OBIntentObject",
           "IdempotencyKey",
-          "IdempotencyKeyExpiration",
+          "IdempotencyKeyExpirationTime",
           "Oauth2ClientId"
         ]
       },
