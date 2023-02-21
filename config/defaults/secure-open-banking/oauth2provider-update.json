@@ -56,7 +56,8 @@
     "expClaimRequiredInRequestObject": true,
     "tokenCompressionEnabled": false,
     "allowedAudienceValues": [
-      "https://{{.Hosts.IgFQDN}}:443/am/oauth2/realms/root/realms/alpha/access_token"
+      "https://{{.Hosts.IgFQDN}}/am/oauth2/realms/root/realms/{{.Identity.AmRealm}}/access_token",
+      "https://{{.Hosts.MtlsFQDN}}/am/oauth2/realms/root/realms/{{.Identity.AmRealm}}/access_token"
     ],
     "tlsCertificateRevocationCheckingEnabled": false
   },
