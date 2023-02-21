@@ -585,7 +585,8 @@
                           "PeriodAlignment",
                           "PeriodType"
                         ],
-                        "description": "Maximum amount that can be specified in all payment instructions in a given period under this VRP consent. If the PeriodAlignment is Calendar, the limit is pro-rated in the first period to the remaining number of days."
+                        "description": "Maximum amount that can be specified in all payment instructions in a given period under this VRP consent. If the PeriodAlignment is Calendar, the limit is pro-rated in the first period to the remaining number of days.",
+                        "isVirtual": false
                       },
                       "SupplementaryData": {
                         "title": "Supplementary Data",
@@ -923,9 +924,6 @@
                   "FirstAvailableDateTime",
                   "LastAvailableDateTime",
                   "TotalPages"
-                ],
-                "required": [
-                  "Self"
                 ],
                 "description": "Meta Data relevant to the payload",
                 "isVirtual": false

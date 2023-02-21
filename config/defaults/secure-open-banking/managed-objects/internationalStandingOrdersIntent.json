@@ -93,24 +93,6 @@
                     "isVirtual": false,
                     "nullable": false
                   },
-                  "ExpectedExecutionDateTime": {
-                    "title": "Expected Execution Date Time",
-                    "type": "string",
-                    "viewable": true,
-                    "searchable": false,
-                    "userEditable": true,
-                    "description": "Expected execution date and time for the payment resource.",
-                    "isVirtual": false
-                  },
-                  "ExpectedSettlementDateTime": {
-                    "title": "Expected Settlement Date Time",
-                    "type": "string",
-                    "viewable": true,
-                    "searchable": false,
-                    "userEditable": true,
-                    "description": "Expected settlement date and time for the payment resource.",
-                    "isVirtual": false
-                  },
                   "CutOffDateTime": {
                     "title": "Cut Off Date Time",
                     "type": "string",
@@ -847,7 +829,15 @@
                       "Frequency",
                       "NumberOfPayments",
                       "Purpose",
-                      "Reference"
+                      "Reference",
+                      "Creditor",
+                      "PostalAddress",
+                      "CreditorAccount",
+                      "CreditorAgent",
+                      "PostalAddress",
+                      "DebtorAccount",
+                      "InstructedAmount",
+                      "SupplementaryData"
                     ],
                     "required": [
                       "CurrencyOfTransfer",
@@ -999,7 +989,7 @@
                       "Name",
                       "SecondaryIdentification"
                     ],
-                    "description": "Only incuded in the response if `Data. ReadRefundAccount` is set to `Yes` in the consent.",
+                    "description": "Only included in the response if `Data. ReadRefundAccount` is set to `Yes` in the consent.",
                     "isVirtual": false,
                     "nullable": false
                   }
@@ -1009,8 +999,7 @@
                   "CreationDateTime",
                   "Status",
                   "StatusUpdateDateTime",
-                  "ExpectedExecutionDateTime",
-                  "ExpectedSettlementDateTime",
+                  "Permission",
                   "CutOffDateTime",
                   "ReadRefundAccount",
                   "Charges",
@@ -1275,9 +1264,6 @@
                   "FirstAvailableDateTime",
                   "LastAvailableDateTime",
                   "TotalPages"
-                ],
-                "required": [
-                  "Self"
                 ],
                 "description": "Meta Data relevant to the payload",
                 "isVirtual": false

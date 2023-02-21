@@ -956,9 +956,6 @@
                   "LastAvailableDateTime",
                   "TotalPages"
                 ],
-                "required": [
-                  "Self"
-                ],
                 "description": "Meta Data relevant to the payload",
                 "isVirtual": false
               }
