@@ -47,6 +47,7 @@ IDENTITY: # Root key for parameter values related with identity platform configu
   REMOTE_CONSENT_SIGNING_KEY_ID: replace-me # RCS signing key keyId
   REMOTE_CONSENT_TIME_LIMIT_SECONDS: 900 # Time in seconds that the PSU has to complete the remote consent flow
   OBRI_SOFTWARE_PUBLISHER_AGENT_NAME: OBRI # software publisher agent name
+  OB_TEST_DIRECTORY_SOFTWARE_PUBLISHER_NAME: Open Banking Test Directory # Software Publisher for the Open Banking Test Directory
   TEST_SOFTWARE_PUBLISHER_AGENT_NAME: test-publisher # test software publisher agent
   DEFAULT_USER_AUTHENTICATION_SERVICE: ldapService # configure the default user authentication service to use. ldapService should be used for CDK environments only.
   GOOGLE_SECRET_STORE_NAME: Google Secrets # name of the store, for CDK this store will be created if it doesn't exist. For FIDC this name must match the name of the pre-configured Google Secrets Store
