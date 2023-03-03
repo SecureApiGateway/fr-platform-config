@@ -1,0 +1,13 @@
+{
+  "_id": "",
+  "_rev": "-1595555328",
+  "validGotoDestinations": [
+    "https://openam-forgerock-securebankingaccelerato.forgeblocks.com/*?*",
+    "https://sapig.nightly.forgerock.financial/am/*?*"
+  ],
+  "_type": {
+    "_id": "validation",
+    "name": "Validation Service",
+    "collection": false
+  }
+}

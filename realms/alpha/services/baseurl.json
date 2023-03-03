@@ -1,0 +1,12 @@
+{
+  "_id": "",
+  "_rev": "800394109",
+  "source": "FIXED_VALUE",
+  "fixedValue": "https://sapig.nightly.forgerock.financial",
+  "contextPath": "/am",
+  "_type": {
+    "_id": "baseurl",
+    "name": "Base URL Source",
+    "collection": false
+  }
+}

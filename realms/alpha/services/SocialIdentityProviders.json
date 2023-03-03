@@ -1,0 +1,10 @@
+{
+  "_id": "",
+  "_rev": "1077208638",
+  "enabled": true,
+  "_type": {
+    "_id": "SocialIdentityProviders",
+    "name": "Social Identity Provider Service",
+    "collection": false
+  }
+}
