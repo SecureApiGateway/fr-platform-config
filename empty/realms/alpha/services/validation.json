@@ -1,0 +1,12 @@
+{
+  "_id": "",
+  "_rev": "896681690",
+  "validGotoDestinations": [
+    "&{am.server.protocol|https}://&{fqdn}/*?*"
+  ],
+  "_type": {
+    "_id": "validation",
+    "name": "Validation Service",
+    "collection": false
+  }
+}

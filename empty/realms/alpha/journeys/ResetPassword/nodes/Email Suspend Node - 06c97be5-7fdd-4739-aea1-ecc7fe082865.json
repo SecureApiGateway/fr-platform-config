@@ -1,0 +1,22 @@
+{
+  "_id": "06c97be5-7fdd-4739-aea1-ecc7fe082865",
+  "_rev": "-1138066714",
+  "emailSuspendMessage": {
+    "en": "An email has been sent to the address you entered. Click the link in that email to proceed."
+  },
+  "emailTemplateName": "resetPassword",
+  "identityAttribute": "mail",
+  "emailAttribute": "mail",
+  "objectLookup": true,
+  "_type": {
+    "_id": "EmailSuspendNode",
+    "name": "Email Suspend Node",
+    "collection": true
+  },
+  "_outcomes": [
+    {
+      "id": "outcome",
+      "displayName": "Outcome"
+    }
+  ]
+}

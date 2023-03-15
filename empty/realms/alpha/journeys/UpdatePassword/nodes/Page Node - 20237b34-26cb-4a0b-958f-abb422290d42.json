@@ -1,0 +1,28 @@
+{
+  "_id": "20237b34-26cb-4a0b-958f-abb422290d42",
+  "_rev": "1965792723",
+  "nodes": [
+    {
+      "_id": "fe2962fc-4db3-4066-8624-553649afc438",
+      "nodeType": "ValidatedPasswordNode",
+      "displayName": "Platform Password"
+    }
+  ],
+  "pageDescription": {
+    "en": "Enter current password"
+  },
+  "pageHeader": {
+    "en": "Verify Existing Password"
+  },
+  "_type": {
+    "_id": "PageNode",
+    "name": "Page Node",
+    "collection": true
+  },
+  "_outcomes": [
+    {
+      "id": "outcome",
+      "displayName": "Outcome"
+    }
+  ]
+}

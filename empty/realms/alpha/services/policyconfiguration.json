@@ -1,0 +1,35 @@
+{
+  "_id": "",
+  "_rev": "1432090674",
+  "userAliasEnabled": false,
+  "connectionPoolMinimumSize": 1,
+  "maximumSearchResults": 100,
+  "policyHeartbeatTimeUnit": "SECONDS",
+  "usersSearchAttribute": "uid",
+  "searchTimeout": 5,
+  "policyHeartbeatInterval": 10,
+  "usersSearchScope": "SCOPE_SUB",
+  "subjectsResultTTL": 10,
+  "checkIfResourceTypeExists": true,
+  "connectionPoolMaximumSize": 10,
+  "sslEnabled": {
+    "$bool": "&{am.stores.ssl.enabled}"
+  },
+  "bindDn": "&{am.stores.user.username}",
+  "ldapServer": [
+    "userstore-1.userstore:1389",
+    "userstore-0.userstore:1389",
+    "userstore-2.userstore:1389"
+  ],
+  "bindPassword": {
+    "$string": "&{am.stores.user.password}"
+  },
+  "realmSearchFilter": "(objectclass=sunismanagedorganization)",
+  "usersSearchFilter": "(objectclass=inetorgperson)",
+  "usersBaseDn": "ou=identities",
+  "_type": {
+    "_id": "policyconfiguration",
+    "name": "Policy Configuration",
+    "collection": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "_id": "a1f45b44-5bf7-4c57-aa3f-75c619c7db8e",
+  "_rev": "-1852493841",
+  "identityAttribute": "userName",
+  "queryFilter": "!(/preferences pr) or /preferences/marketing eq false or /preferences/updates eq false",
+  "_type": {
+    "_id": "QueryFilterDecisionNode",
+    "name": "Query Filter Decision",
+    "collection": true
+  },
+  "_outcomes": [
+    {
+      "id": "true",
+      "displayName": "True"
+    },
+    {
+      "id": "false",
+      "displayName": "False"
+    }
+  ]
+}

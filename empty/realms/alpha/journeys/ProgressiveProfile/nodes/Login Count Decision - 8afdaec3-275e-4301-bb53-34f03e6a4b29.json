@@ -1,0 +1,22 @@
+{
+  "_id": "8afdaec3-275e-4301-bb53-34f03e6a4b29",
+  "_rev": "-1679047423",
+  "interval": "AT",
+  "identityAttribute": "userName",
+  "amount": 3,
+  "_type": {
+    "_id": "LoginCountDecisionNode",
+    "name": "Login Count Decision",
+    "collection": true
+  },
+  "_outcomes": [
+    {
+      "id": "true",
+      "displayName": "True"
+    },
+    {
+      "id": "false",
+      "displayName": "False"
+    }
+  ]
+}

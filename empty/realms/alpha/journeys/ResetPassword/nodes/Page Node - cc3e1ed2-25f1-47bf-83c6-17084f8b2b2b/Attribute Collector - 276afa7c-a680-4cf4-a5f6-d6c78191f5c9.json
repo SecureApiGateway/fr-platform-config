@@ -1,0 +1,21 @@
+{
+  "_id": "276afa7c-a680-4cf4-a5f6-d6c78191f5c9",
+  "_rev": "-1256358519",
+  "attributesToCollect": [
+    "mail"
+  ],
+  "identityAttribute": "mail",
+  "validateInputs": false,
+  "required": true,
+  "_type": {
+    "_id": "AttributeCollectorNode",
+    "name": "Attribute Collector",
+    "collection": true
+  },
+  "_outcomes": [
+    {
+      "id": "outcome",
+      "displayName": "Outcome"
+    }
+  ]
+}
