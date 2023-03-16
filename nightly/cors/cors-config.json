@@ -12,27 +12,6 @@
   "corsServices": [
     {
       "maxAge": 0,
-      "exposedHeaders": [],
-      "acceptedHeaders": [
-        "*"
-      ],
-      "allowCredentials": false,
-      "acceptedMethods": [
-        "*"
-      ],
-      "acceptedOrigins": [
-        "rcs-ui.dev.forgerock.financial"
-      ],
-      "enabled": false,
-      "_id": "CORS",
-      "_type": {
-        "_id": "configuration",
-        "name": "Cors Configuration",
-        "collection": true
-      }
-    },
-    {
-      "maxAge": 0,
       "exposedHeaders": [
         "Cache-Control",
         "Content-Language",

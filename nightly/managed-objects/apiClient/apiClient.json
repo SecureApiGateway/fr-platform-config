@@ -11,6 +11,7 @@
       "id",
       "name",
       "description",
+      "deleted",
       "logoUri",
       "jwksUri",
       "ssa",
@@ -31,7 +32,7 @@
         "viewable": true
       },
       "accountAccessIntents": {
-        "description": "",
+        "description": null,
         "items": {
           "properties": {
             "_ref": {
@@ -121,6 +122,16 @@
         "validate": false,
         "viewable": true
       },
+      "deleted": {
+        "default": false,
+        "description": "Has the ApiClient record been deleted",
+        "isVirtual": false,
+        "searchable": true,
+        "title": "Deleted",
+        "type": "boolean",
+        "userEditable": true,
+        "viewable": true
+      },
       "description": {
         "searchable": true,
         "title": "Description",
@@ -129,7 +140,7 @@
         "viewable": true
       },
       "domesticPaymentIntents": {
-        "description": "",
+        "description": null,
         "items": {
           "properties": {
             "_ref": {
@@ -181,6 +192,13 @@
         "userEditable": true,
         "viewable": true
       },
+      "jwks": {
+        "searchable": false,
+        "title": "JWK Set",
+        "type": "object",
+        "userEditable": false,
+        "viewable": true
+      },
       "jwksUri": {
         "searchable": true,
         "title": "JWKS URI",
@@ -212,6 +230,16 @@
         "userEditable": true,
         "viewable": true
       },
+      "roles": {
+        "description": null,
+        "format": null,
+        "isVirtual": false,
+        "searchable": true,
+        "title": "Roles",
+        "type": "string",
+        "userEditable": true,
+        "viewable": true
+      },
       "ssa": {
         "description": null,
         "isVirtual": false,
@@ -227,7 +255,8 @@
       "id",
       "name",
       "oauth2ClientId",
-      "ssa"
+      "ssa",
+      "deleted"
     ],
     "title": "apiClient",
     "type": "object"

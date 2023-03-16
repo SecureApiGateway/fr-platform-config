@@ -254,8 +254,8 @@
         "isPersonal": true,
         "isVirtual": true,
         "onStore": {
-          "source": "object.cn || (object.givenName + ' ' + object.sn)",
-          "type": "text/javascript"
+          "type": "text/javascript",
+          "file": "bravo_user.cn.onStore.js"
         },
         "scope": "private",
         "searchable": false,
