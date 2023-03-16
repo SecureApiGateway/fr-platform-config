@@ -72,9 +72,9 @@
         "FETCH",
         "OPTIONS"
       ],
-      "acceptedOrigins": [
-        "https://sapig.nightly.forgerock.financial"
-      ],
+      "acceptedOrigins": {
+        "$list": "&{esv.cors.accepted.origins}"
+      },
       "enabled": true,
       "_id": "login-ui-cors",
       "_type": {
