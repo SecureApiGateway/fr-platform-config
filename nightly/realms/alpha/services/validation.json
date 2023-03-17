@@ -3,7 +3,7 @@
   "_rev": "-1595555328",
   "validGotoDestinations": [
     "https://openam-forgerock-securebankingaccelerato.forgeblocks.com/*?*",
-    "https://sapig.nightly.forgerock.financial/am/*?*"
+    "&{esv.baseurl}/am/*?*"
   ],
   "_type": {
     "_id": "validation",
