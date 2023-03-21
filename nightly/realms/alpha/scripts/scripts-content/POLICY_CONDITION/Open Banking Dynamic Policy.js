@@ -1,8 +1,8 @@
 function getIdmClientDetails() {
     return {
         "id": "policy-client",
-        "secret": "password",
-        "endpoint": "https://openam-forgerock-securebankingaccelerato.forgeblocks.com/am/oauth2/realms/root/realms/alpha/access_token",
+        "secret": "&{esv.policy.client.password}",
+        "endpoint": "https://&{fqdn}/am/oauth2/realms/root/realms/alpha/access_token",
         "scope": "fr:idm:*",
         "idmAdminUsername": "service_account.ig",
         "idmAdminPassword": "0penBanking!"
@@ -222,7 +222,7 @@ function findIntentType(api) {
 function fetchIntentFromIdm(intentId, intentType) {
     var accessToken = getIdmAccessToken();
     var request = new org.forgerock.http.protocol.Request();
-    var uri ="https://openam-forgerock-securebankingaccelerato.forgeblocks.com/openidm/managed/" + intentType + "/" + intentId + "?_fields=_id,_rev,OBIntentObject,user/_id,accounts,apiClient/_id"
+    var uri ="https://&{fqdn}/openidm/managed/" + intentType + "/" + intentId + "?_fields=_id,_rev,OBIntentObject,user/_id,accounts,apiClient/_id"
 
     logger.message(script_name + ": IDM fetch " + uri)
 
