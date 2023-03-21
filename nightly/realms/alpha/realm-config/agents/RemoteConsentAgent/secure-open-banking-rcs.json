@@ -1,5 +1,5 @@
 {
-  "_id": "secure-open-banking-rcs",
+  "_id": "&{esv.rcs.jwt.issuer}",
   "_rev": "1441260424",
   "userpassword": null,
   "remoteConsentRequestEncryptionAlgorithm": {
