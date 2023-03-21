@@ -1,7 +1,7 @@
 {
   "_id": "ob-at-modification",
   "name": "Open Banking AT Modification Script",
-  "description": null,
+  "description": "null",
   "script": {
     "file": "scripts-content/OAUTH2_ACCESS_TOKEN_MODIFICATION/Open Banking AT Modification Script.js"
   },
