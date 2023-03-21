@@ -1,5 +1,5 @@
 {
-  "_id": "ig-agent",
+  "_id": "&{esv.ig.agent.username}",
   "_rev": "1394611646",
   "userpassword": "&{esv.ig.agent.password}",
   "igTokenIntrospection": {
