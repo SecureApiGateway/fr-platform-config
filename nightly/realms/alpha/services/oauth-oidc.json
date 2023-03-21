@@ -150,7 +150,7 @@
     ],
     "expClaimRequiredInRequestObject": true,
     "tokenValidatorClasses": [
-      "urn:ietf:params:oauth:token-type:id_token|org.forgerock.oauth2.core.tokenexchange.idtoken.OidcIdTokenValidator",
+      "urn:ietf:params:oauth:token-type:id_token|org.forgerock.oauth2.core.tokenexchange.idtoken.OidcIdTokenValidator",#
       "urn:ietf:params:oauth:token-type:access_token|org.forgerock.oauth2.core.tokenexchange.accesstoken.OAuth2AccessTokenValidator"
     ],
     "tokenSigningAlgorithm": "PS256",
@@ -268,7 +268,7 @@
       "A192CBC-HS384",
       "A256CBC-HS512"
     ],
-    "remoteConsentServiceId": "secure-open-banking-rcs",
+    "remoteConsentServiceId": "&{esv.rcs.jwt.issuer}",
     "enableRemoteConsent": true,
     "supportedRcsRequestEncryptionAlgorithms": [
       "ECDH-ES+A256KW",
