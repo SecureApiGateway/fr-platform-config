@@ -1,6 +1,6 @@
 {
   "_id": "",
-  "_rev": "1031866842",
+  "_rev": "1031866848",
   "advancedOIDCConfig": {
     "supportedRequestParameterEncryptionEnc": [
       "A256GCM",
@@ -196,7 +196,7 @@
     "dynamicClientRegistrationScope": "dynamic_client_registration",
     "allowDynamicRegistration": false,
     "requiredSoftwareStatementAttestedAttributes": [],
-    "dynamicClientRegistrationSoftwareStatementRequired": false,
+    "dynamicClientRegistrationSoftwareStatementRequired": true,
     "generateRegistrationAccessTokens": true
   },
   "coreOIDCConfig": {
