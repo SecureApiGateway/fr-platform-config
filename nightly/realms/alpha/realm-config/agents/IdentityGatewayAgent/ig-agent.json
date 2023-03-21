@@ -1,7 +1,7 @@
 {
   "_id": "ig-agent",
   "_rev": "1394611646",
-  "userpassword": null,
+  "userpassword": "&{esv.ig.agent.password}",
   "igTokenIntrospection": {
     "inherited": false,
     "value": "Realm"

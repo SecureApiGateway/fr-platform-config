@@ -2,7 +2,7 @@
   "_id": "ig-client",
   "_rev": "1070432342",
   "coreOAuth2ClientConfig": {
-    "userpassword": null,
+    "userpassword": "&{esv.ig.client.password}",
     "scopes": {
       "inherited": false,
       "value": [
