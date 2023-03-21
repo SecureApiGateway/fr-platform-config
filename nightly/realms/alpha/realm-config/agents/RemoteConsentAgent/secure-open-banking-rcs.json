@@ -24,7 +24,7 @@
   },
   "jwkSet": {
     "inherited": false,
-    "value": "{\"keys\":[{\"e\":\"AQAB\",\"kid\":\"rcs-jwt-signer\",\"kty\":\"RSA\",\"n\":\"lLZDQdmmGq6VspA8wemBlPSxDDDtm-HtZp3zXXvozPOIe1SgpL5yitbArmvr0VRrojWEe2ffzHzsJ21aD0hVnfh_905bVHwkM8bzPpYZ_KJUgx3gE63sGKQ-ublKKley8LV-1kiTurXmD_jLLBYZtIVCWZuMbTxUdE6kEjgS2guLlf4QiG151QUlxhMzNzmm3weOnWcLry-mDo_c2Kj8qAgXbgYAx-GcwpwBRMYCWxk5D2kFhJj2r_WdTwXAPfCB-F7gEJdKLKEp3vJQZiutoIusBemYOmohsKJ7L7Gkgxoho218WlhmrIrn2glmhWmsRPGmoM5ekyqxkmiDZcbQYQ\",\"use\":\"sig\"}]}"
+    "value": "&{esv.rcs.jwks}"
   },
   "jwkStoreCacheMissCacheTime": {
     "inherited": false,
