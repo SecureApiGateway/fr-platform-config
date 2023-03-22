@@ -137,7 +137,7 @@
     ],
     "refreshTokenGracePeriod": 0,
     "tlsClientCertificateHeaderFormat": "URLENCODED_PEM",
-    "hashSalt": "gnsdjcwx1a1acia62voroervtgq0",
+    "hashSalt": "&{am.oidc.client.subject.identifier.hash.salt}",
     "macaroonTokenFormat": "V2",
     "maxAgeOfRequestObjectNbfClaim": 0,
     "tlsCertificateRevocationCheckingEnabled": false,
