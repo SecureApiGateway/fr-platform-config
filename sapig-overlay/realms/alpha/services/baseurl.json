@@ -1,0 +1,12 @@
+{
+  "_id": "",
+  "_rev": "800394109",
+  "source": "FIXED_VALUE",
+  "fixedValue": "&{esv.baseurl}",
+  "contextPath": "/am",
+  "_type": {
+    "_id": "baseurl",
+    "name": "Base URL Source",
+    "collection": false
+  }
+}
