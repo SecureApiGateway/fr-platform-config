@@ -1,5 +1,5 @@
 {
-  "_id": "&{esv.rcs.jwt.issuer}",
+  "_id": "secure-api-gateway-ob-uk-rcs",
   "_rev": "1441260424",
   "userpassword": null,
   "remoteConsentRequestEncryptionAlgorithm": {

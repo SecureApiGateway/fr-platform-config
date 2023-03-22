@@ -268,7 +268,7 @@
       "A192CBC-HS384",
       "A256CBC-HS512"
     ],
-    "remoteConsentServiceId": "&{esv.rcs.jwt.issuer}",
+    "remoteConsentServiceId": "secure-api-gateway-ob-uk-rcs",
     "enableRemoteConsent": true,
     "supportedRcsRequestEncryptionAlgorithms": [
       "ECDH-ES+A256KW",
