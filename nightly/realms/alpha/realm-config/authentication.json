@@ -1,6 +1,16 @@
 {
   "_id": "",
   "_rev": "-1957641651",
+  "security": {
+    "zeroPageLoginEnabled": false,
+    "zeroPageLoginReferrerWhiteList": [],
+    "zeroPageLoginAllowedWithoutReferrer": true,
+    "moduleBasedAuthEnabled": false,
+    "sharedSecret": {
+      "$string": "&{am.authentication.shared.secret}"
+    },
+    "keyAlias": "test"
+  },
   "postauthprocess": {
     "usernameGeneratorClass": "com.sun.identity.authentication.spi.DefaultUserIDGenerator",
     "usernameGeneratorEnabled": true,
@@ -11,19 +21,11 @@
     "userAttributeSessionMapping": [],
     "loginFailureUrl": []
   },
-  "security": {
-    "zeroPageLoginEnabled": false,
-    "zeroPageLoginReferrerWhiteList": [],
-    "zeroPageLoginAllowedWithoutReferrer": true,
-    "moduleBasedAuthEnabled": false,
-    "sharedSecret": null,
-    "keyAlias": "test"
-  },
   "trees": {
     "suspendedAuthenticationTimeout": 1440,
     "authenticationSessionsStateManagement": "JWT",
     "authenticationSessionsMaxDuration": 5,
-    "authenticationTreeCookieHttpOnly": false,
+    "authenticationTreeCookieHttpOnly": true,
     "authenticationSessionsWhitelist": false
   },
   "accountlockout": {
@@ -35,10 +37,6 @@
     "loginFailureCount": 5,
     "loginFailureDuration": 300
   },
-  "core": {
-    "adminAuthModule": "[Empty]",
-    "orgConfig": "PasswordGrant"
-  },
   "general": {
     "userStatusCallbackPlugins": [],
     "statelessSessionsEnabled": false,
@@ -49,6 +47,10 @@
       "user"
     ],
     "defaultAuthLevel": 0
+  },
+  "core": {
+    "adminAuthModule": "[Empty]",
+    "orgConfig": "PasswordGrant"
   },
   "userprofile": {
     "dynamicProfileCreation": "false",
