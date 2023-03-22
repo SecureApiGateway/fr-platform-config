@@ -268,7 +268,7 @@
       "A192CBC-HS384",
       "A256CBC-HS512"
     ],
-    "remoteConsentServiceId": "secure-api-gateway-ob-uk-rcs",
+    "remoteConsentServiceId": "secure-open-banking-rcs",
     "enableRemoteConsent": true,
     "supportedRcsRequestEncryptionAlgorithms": [
       "ECDH-ES+A256KW",
