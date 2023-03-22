@@ -164,8 +164,8 @@
     ],
     "parRequestUriLifetime": 90,
     "allowedAudienceValues": [
-      "&{esv.baseurl}/am/oauth2/realms/root/realms/alpha/access_token",
-      "&{esv.mtls.baseurl}/am/oauth2/realms/root/realms/alpha/access_token"
+      "&{esv.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.identity.cloud.realm}/access_token",
+      "&{esv.mtls.baseurl}/am/oauth2/realms/root/realms/&{esv.sapig.identity.cloud.realm}/access_token"
     ],
     "persistentClaims": [],
     "supportedScopes": [

@@ -2,7 +2,7 @@ function getIdmClientDetails() {
     return {
         "id": systemEnv.getProperty("esv.policy.client.username"),
         "secret": systemEnv.getProperty("esv.policy.client.password"),
-        "endpoint": systemEnv.getProperty("esv.identity.cloud.baseurl") + "/am/oauth2/realms/root/realms/alpha/access_token",
+        "endpoint": systemEnv.getProperty("esv.identity.cloud.baseurl") + "/am/oauth2/realms/root/realms/" + systemEnv.getProperty("esv.sapig.identity.cloud.realm")  + "/access_token",
         "scope": "fr:idm:*",
         "idmAdminUsername": systemEnv.getProperty("esv.policy.admin.username"),
         "idmAdminPassword": systemEnv.getProperty("esv.policy.admin.password")
