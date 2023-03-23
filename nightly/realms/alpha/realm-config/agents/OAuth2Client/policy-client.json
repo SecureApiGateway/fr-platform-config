@@ -1,5 +1,5 @@
 {
-  "_id": "&{esv.policy.client.username}",
+  "_id": "policy-client",
   "_rev": "2137167960",
   "coreOAuth2ClientConfig": {
     "userpassword": "&{esv.policy.client.password}",

@@ -1,5 +1,5 @@
 {
-  "_id": "&{esv.ig.client.username}",
+  "_id": "ig-client",
   "_rev": "1070432342",
   "coreOAuth2ClientConfig": {
     "userpassword": "&{esv.ig.client.password}",
