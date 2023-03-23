@@ -314,7 +314,7 @@
     "evaluateScopePluginType": "JAVA",
     "authorizeEndpointDataProviderScript": "[Empty]",
     "accessTokenModifierClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "accessTokenModificationScript": "d22f9a0c-426a-4466-b95e-d0f125b0d5fa",
+    "accessTokenModificationScript": "39c08084-1238-43e8-857f-2e11005eac49",
     "validateScopePluginType": "JAVA",
     "accessTokenModificationPluginType": "SCRIPTED",
     "oidcClaimsScript": "ob-oidc-claims",
