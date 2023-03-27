@@ -1,0 +1,14 @@
+{
+  "_id": "ig-agent",
+  "_rev": "1394611646",
+  "userpassword": "&{esv.ig.agent.password}",
+  "igTokenIntrospection": {
+    "inherited": false,
+    "value": "Realm"
+  },
+  "_type": {
+    "_id": "IdentityGatewayAgent",
+    "name": "Identity Gateway Agents",
+    "collection": true
+  }
+}

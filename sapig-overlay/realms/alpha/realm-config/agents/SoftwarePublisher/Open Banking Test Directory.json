@@ -1,0 +1,36 @@
+{
+  "_id": "Open Banking Test Directory",
+  "_rev": "-516262382",
+  "publicKeyLocation": {
+    "inherited": false,
+    "value": "jwks_uri"
+  },
+  "jwksCacheTimeout": {
+    "inherited": false,
+    "value": 3600000
+  },
+  "softwareStatementSigningAlgorithm": {
+    "inherited": false,
+    "value": "PS256"
+  },
+  "jwkSet": {
+    "inherited": false
+  },
+  "issuer": {
+    "inherited": false,
+    "value": "OpenBanking Ltd"
+  },
+  "jwkStoreCacheMissCacheTime": {
+    "inherited": false,
+    "value": 60000
+  },
+  "jwksUri": {
+    "inherited": false,
+    "value": "&{esv.baseurl}/jwkms/jwksproxy/keystore.openbankingtest.org.uk/keystore/openbanking.jwks"
+  },
+  "_type": {
+    "_id": "SoftwarePublisher",
+    "name": "OAuth2 Software Publisher",
+    "collection": true
+  }
+}

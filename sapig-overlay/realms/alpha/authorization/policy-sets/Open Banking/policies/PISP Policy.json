@@ -1,0 +1,57 @@
+{
+  "_id": "PISP Policy",
+  "_rev": "1676362755749",
+  "name": "PISP Policy",
+  "active": true,
+  "description": "",
+  "resources": [
+    "*://*:*/open-banking/*/pisp/file-payments/*/payment-details",
+    "*://*:*/open-banking/*/pisp/domestic-vrps/*",
+    "*://*:*/open-banking/*/pisp/international-standing-orders",
+    "*://*:*/open-banking/*/pisp/international-payments/*/payment-details",
+    "*://*:*/open-banking/*/pisp/international-standing-orders/*/payment-details",
+    "*://*:*/open-banking/*/pisp/domestic-scheduled-payments",
+    "*://*:*/open-banking/*/pisp/international-scheduled-payments/*",
+    "*://*:*/open-banking/*/pisp/domestic-vrp-consents/*/funds-confirmation",
+    "*://*:*/open-banking/*/pisp/international-payments/*",
+    "*://*:*/open-banking/*/pisp/file-payments/*",
+    "*://*:*/open-banking/*/pisp/domestic-payments/*/payment-details",
+    "*://*:*/open-banking/*/pisp/international-scheduled-payments",
+    "*://*:*/open-banking/*/pisp/international-payment-consents/*/funds-confirmation",
+    "*://*:*/open-banking/*/pisp/international-standing-orders/*",
+    "*://*:*/open-banking/*/pisp/domestic-vrps",
+    "*://*:*/open-banking/*/pisp/file-payments",
+    "*://*:*/open-banking/*/pisp/domestic-vrps/*/payment-details",
+    "*://*:*/open-banking/*/pisp/domestic-payment-consents/*/funds-confirmation",
+    "*://*:*/open-banking/*/pisp/international-scheduled-payment-consents/*/funds-confirmation",
+    "*://*:*/open-banking/*/pisp/domestic-standing-orders/*",
+    "*://*:*/open-banking/*/pisp/domestic-scheduled-payments/*/payment-details",
+    "*://*:*/open-banking/*/pisp/file-payments/*/report-file",
+    "*://*:*/open-banking/*/pisp/domestic-standing-orders",
+    "*://*:*/open-banking/*/pisp/domestic-payments/*",
+    "*://*:*/open-banking/*/pisp/domestic-scheduled-payments/*",
+    "*://*:*/open-banking/*/pisp/domestic-standing-orders/*/payment-details",
+    "*://*:*/open-banking/*/pisp/domestic-payments",
+    "*://*:*/open-banking/*/pisp/international-scheduled-payments/*/payment-details",
+    "*://*:*/open-banking/*/pisp/international-payments"
+  ],
+  "applicationName": "Open Banking",
+  "actionValues": {
+    "POST": true,
+    "GET": true
+  },
+  "subject": {
+    "type": "JwtClaim",
+    "claimName": "intent_type",
+    "claimValue": "pisp"
+  },
+  "condition": {
+    "type": "Script",
+    "scriptId": "65c4a4d6-f3cd-492b-bc13-9f069f040fac"
+  },
+  "resourceTypeUuid": "76656a38-5f8e-401b-83aa-4ccb74ce88d2",
+  "lastModifiedBy": "id=72466ee5-764b-4dc5-bc79-bc7aa1b56cb1,ou=user,ou=am-config",
+  "lastModifiedDate": "2023-02-14T08:19:15.749Z",
+  "createdBy": "id=72466ee5-764b-4dc5-bc79-bc7aa1b56cb1,ou=user,ou=am-config",
+  "creationDate": "2023-02-14T08:19:15.749Z"
+}

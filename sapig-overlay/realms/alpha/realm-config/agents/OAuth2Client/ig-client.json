@@ -1,0 +1,43 @@
+{
+  "_id": "ig-client",
+  "_rev": "1070432342",
+  "coreOAuth2ClientConfig": {
+    "userpassword": "&{esv.ig.client.password}",
+    "scopes": {
+      "inherited": false,
+      "value": [
+        "fr:idm:*",
+        "dynamic_client_registration",
+        "trusted_gateway"
+      ]
+    },
+    "clientType": {
+      "inherited": false,
+      "value": "Confidential"
+    },
+    "redirectionUris": {
+      "inherited": false,
+      "value": [
+        "https://httpbin.org/anything"
+      ]
+    },
+    "status": {
+      "inherited": false,
+      "value": "Active"
+    }
+  },
+  "advancedOAuth2ClientConfig": {
+    "grantTypes": {
+      "inherited": false,
+      "value": [
+        "client_credentials",
+        "password"
+      ]
+    }
+  },
+  "_type": {
+    "_id": "OAuth2Client",
+    "name": "OAuth2 Clients",
+    "collection": true
+  }
+}
