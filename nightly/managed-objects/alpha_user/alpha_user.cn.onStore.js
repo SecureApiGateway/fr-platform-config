@@ -1,1 +1,0 @@
-object.cn || (object.givenName + ' ' + object.sn)
