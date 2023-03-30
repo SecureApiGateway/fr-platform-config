@@ -2,5 +2,5 @@
   "_id": "esv-mtls-baseurl",
   "expressionType": "string",
   "description": "",
-  "valueBase64": "%ESV_MTLS_BASEURL%"
+  "valueBase64": "${ESV_MTLS_BASEURL}"
 }
