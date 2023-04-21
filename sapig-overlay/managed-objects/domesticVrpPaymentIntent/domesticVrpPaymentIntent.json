@@ -739,7 +739,7 @@
               "PaymentPurposeCode",
               "MerchantCategoryCode",
               "MerchantCustomerIdentification",
-              "ContractPresentInidicator",
+              "ContractPresentIndicator",
               "BeneficiaryPrepopulatedIndicator",
               "BeneficiaryAccountType",
               "DeliveryAddress"
@@ -763,7 +763,7 @@
                 "userEditable": true,
                 "viewable": true
               },
-              "ContractPresentInidicator": {
+              "ContractPresentIndicator": {
                 "description": "Indicates if Payee has a contractual relationship with the PISP.",
                 "isVirtual": false,
                 "searchable": false,
