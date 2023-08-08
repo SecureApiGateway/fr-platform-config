@@ -8,7 +8,7 @@ It is assumed that configuration will be applied to a new ID Cloud instance that
 
 ## Deploying the config
 
-The config needs to be deployed using the `cs_config_manager` tool
+The config needs to be deployed using the [fr-config-manager tool](https://github.com/ForgeRock/fr-config-manager)
 
 Run `./create-config-archive.sh` to produce a .tar.gz containing the config.
 
