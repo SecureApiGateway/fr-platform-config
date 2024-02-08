@@ -67,19 +67,7 @@
       "PS256"
     ],
     "supportedAuthorizationResponseSigningAlgorithms": [
-      "PS384",
-      "RS384",
-      "EdDSA",
-      "ES384",
-      "HS256",
-      "HS512",
-      "ES256",
-      "RS256",
-      "HS384",
-      "ES512",
-      "PS256",
-      "PS512",
-      "RS512"
+      "PS256"
     ],
     "supportedUserInfoEncryptionEnc": [
       "A256GCM",
