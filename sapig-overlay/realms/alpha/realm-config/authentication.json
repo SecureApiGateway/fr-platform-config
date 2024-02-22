@@ -50,7 +50,7 @@
   },
   "core": {
     "adminAuthModule": "[Empty]",
-    "orgConfig": "PasswordGrant"
+    "orgConfig": "Login"
   },
   "userprofile": {
     "dynamicProfileCreation": "false",
