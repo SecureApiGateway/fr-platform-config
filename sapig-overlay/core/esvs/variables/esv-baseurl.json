@@ -1,0 +1,6 @@
+{
+  "_id": "esv-baseurl",
+  "expressionType": "string",
+  "description": "",
+  "valueBase64": "${ESV_BASEURL}"
+}

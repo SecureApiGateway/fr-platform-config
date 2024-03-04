@@ -1,0 +1,6 @@
+{
+  "_id": "esv-identity-cloud-baseurl",
+  "expressionType": "string",
+  "description": "",
+  "valueBase64": "${ESV_IDENTITY_CLOUD_BASEURL}"
+}
