@@ -14,7 +14,7 @@ fi
 commit_hash=$(git rev-parse --short HEAD)
 
 cd ../sapig-overlay/$sapigType
-file_name="../../sapig-config-overlay-${commit_hash}.tar.gz"
+file_name="../../sapig-config-overlay-${sapigType}-${commit_hash}.tar.gz"
 
 # Contains the config without the sapig-overlay parent dir
 tar -czf "${file_name}" ./*
