@@ -1,0 +1,6 @@
+{
+  "_id": "esv-sapig-identity-cloud-realm",
+  "expressionType": "string",
+  "description": "",
+  "valueBase64": "${ESV_SAPIG_IDENTITY_CLOUD_REALM}"
+}
