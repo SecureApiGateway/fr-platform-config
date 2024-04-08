@@ -26,7 +26,7 @@
   },
   "jwksUri": {
     "inherited": false,
-    "value": "&{esv.baseurl}/jwkms/jwksproxy/keystore.openbankingtest.org.uk/keystore/openbanking.jwks"
+    "value": "https://keystore.openbankingtest.org.uk/keystore/openbanking.jwks"
   },
   "_type": {
     "_id": "SoftwarePublisher",
