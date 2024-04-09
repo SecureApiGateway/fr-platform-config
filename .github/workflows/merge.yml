@@ -1,0 +1,29 @@
+name: merge-main
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+
+jobs:
+  checkcode:
+    name: Check Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+      - name: Sort Json Files
+        run: |
+          npm -g install sort-json
+          cd sapig-overlays
+          find ./ -name '*.json' -exec sort-json {} \;
+      - name: Commit changes
+        run: | 
+          git config user.name fropenbanking
+	        git config user.email obst@forgerock.com
+	        git add .
+	        git commit -m "Automated commit - Sorting json files - [NO CI]" || exit 0
+	        git push
