@@ -1,10 +1,10 @@
-name: merge-main
+name: Check Json Order
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
     paths-ignore:
       - README.md
 
@@ -19,12 +19,12 @@ jobs:
         run: |
           npm -g install sort-json
           ls -la
-#          cd fr-platform-config/sapig-overlays
-#          find ./ -name '*.json' -exec sort-json {} \;
-#      - name: Commit changes
-#        run: |
-#          git config user.name fropenbanking
-#          git config user.email obst@forgerock.com
-#          git add .
-#          git commit -m "Automated commit - Sorting json files - [NO CI]" || exit 0
-#          git push
+          sapig-overlay
+          find ./ -name '*.json' -exec sort-json {} \;
+      - name: Commit changes
+        run: |
+          git config user.name fropenbanking
+          git config user.email obst@forgerock.com
+          git add .
+          git commit -m "Automated commit - Sorting json files - [NO CI]" || exit 0
+          git push
