@@ -1,30 +1,10 @@
 {
   "_id": "ig-client",
   "_rev": "1070432342",
-  "coreOAuth2ClientConfig": {
-    "userpassword": "&{esv.ig.client.password}",
-    "scopes": {
-      "inherited": false,
-      "value": [
-        "fr:idm:*",
-        "dynamic_client_registration",
-        "trusted_gateway"
-      ]
-    },
-    "clientType": {
-      "inherited": false,
-      "value": "Confidential"
-    },
-    "redirectionUris": {
-      "inherited": false,
-      "value": [
-        "https://httpbin.org/anything"
-      ]
-    },
-    "status": {
-      "inherited": false,
-      "value": "Active"
-    }
+  "_type": {
+    "_id": "OAuth2Client",
+    "collection": true,
+    "name": "OAuth2 Clients"
   },
   "advancedOAuth2ClientConfig": {
     "grantTypes": {
@@ -35,9 +15,29 @@
       ]
     }
   },
-  "_type": {
-    "_id": "OAuth2Client",
-    "name": "OAuth2 Clients",
-    "collection": true
+  "coreOAuth2ClientConfig": {
+    "clientType": {
+      "inherited": false,
+      "value": "Confidential"
+    },
+    "redirectionUris": {
+      "inherited": false,
+      "value": [
+        "https://httpbin.org/anything"
+      ]
+    },
+    "scopes": {
+      "inherited": false,
+      "value": [
+        "fr:idm:*",
+        "dynamic_client_registration",
+        "trusted_gateway"
+      ]
+    },
+    "status": {
+      "inherited": false,
+      "value": "Active"
+    },
+    "userpassword": "&{esv.ig.client.password}"
   }
 }

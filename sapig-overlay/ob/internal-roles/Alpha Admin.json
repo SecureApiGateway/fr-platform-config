@@ -6,15 +6,6 @@
   "name": "Alpha Admin",
   "privileges": [
     {
-      "path": "managed/alpha_user",
-      "name": "Alpha realm - Users",
-      "actions": [],
-      "permissions": [
-        "VIEW",
-        "CREATE",
-        "UPDATE",
-        "DELETE"
-      ],
       "accessFlags": [
         {
           "attribute": "userName",
@@ -288,6 +279,15 @@
           "attribute": "frUnindexedInteger5",
           "readOnly": false
         }
+      ],
+      "actions": [],
+      "name": "Alpha realm - Users",
+      "path": "managed/alpha_user",
+      "permissions": [
+        "VIEW",
+        "CREATE",
+        "UPDATE",
+        "DELETE"
       ]
     }
   ],

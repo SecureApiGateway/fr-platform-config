@@ -1,37 +1,37 @@
 {
   "_id": "Secure API Gateway Development Trusted Directory",
   "_rev": "-991743971",
-  "userpassword": null,
-  "publicKeyLocation": {
-    "inherited": false,
-    "value": "jwks_uri"
-  },
-  "jwksCacheTimeout": {
-    "inherited": false,
-    "value": 3600000
-  },
-  "softwareStatementSigningAlgorithm": {
-    "inherited": false,
-    "value": "PS256"
-  },
-  "jwkSet": {
-    "inherited": false
+  "_type": {
+    "_id": "SoftwarePublisher",
+    "collection": true,
+    "name": "OAuth2 Software Publisher"
   },
   "issuer": {
     "inherited": false,
     "value": "test-publisher"
   },
+  "jwkSet": {
+    "inherited": false
+  },
   "jwkStoreCacheMissCacheTime": {
     "inherited": false,
     "value": 60000
+  },
+  "jwksCacheTimeout": {
+    "inherited": false,
+    "value": 3600000
   },
   "jwksUri": {
     "inherited": false,
     "value": "&{esv.baseurl}/jwkms/testdirectory/jwks"
   },
-  "_type": {
-    "_id": "SoftwarePublisher",
-    "name": "OAuth2 Software Publisher",
-    "collection": true
-  }
+  "publicKeyLocation": {
+    "inherited": false,
+    "value": "jwks_uri"
+  },
+  "softwareStatementSigningAlgorithm": {
+    "inherited": false,
+    "value": "PS256"
+  },
+  "userpassword": null
 }

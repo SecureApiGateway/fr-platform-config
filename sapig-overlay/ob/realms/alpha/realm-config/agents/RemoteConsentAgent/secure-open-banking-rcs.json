@@ -1,26 +1,10 @@
 {
   "_id": "secure-open-banking-rcs",
   "_rev": "1441260424",
-  "userpassword": null,
-  "remoteConsentRequestEncryptionAlgorithm": {
-    "inherited": false,
-    "value": "RSA-OAEP-256"
-  },
-  "publicKeyLocation": {
-    "inherited": false,
-    "value": "jwks"
-  },
-  "jwksCacheTimeout": {
-    "inherited": false,
-    "value": 0
-  },
-  "remoteConsentResponseSigningAlg": {
-    "inherited": false,
-    "value": "PS256"
-  },
-  "remoteConsentRequestSigningAlgorithm": {
-    "inherited": false,
-    "value": "RS256"
+  "_type": {
+    "_id": "RemoteConsentAgent",
+    "collection": true,
+    "name": "OAuth2 Remote Consent Service"
   },
   "jwkSet": {
     "inherited": false,
@@ -30,13 +14,24 @@
     "inherited": false,
     "value": 0
   },
-  "remoteConsentResponseEncryptionMethod": {
+  "jwksCacheTimeout": {
     "inherited": false,
-    "value": "A128GCM"
+    "value": 0
+  },
+  "jwksUri": {
+    "inherited": false
+  },
+  "publicKeyLocation": {
+    "inherited": false,
+    "value": "jwks"
   },
   "remoteConsentRedirectUrl": {
     "inherited": false,
     "value": "&{esv.baseurl}/rcs/ui/consent"
+  },
+  "remoteConsentRequestEncryptionAlgorithm": {
+    "inherited": false,
+    "value": "RSA-OAEP-256"
   },
   "remoteConsentRequestEncryptionEnabled": {
     "inherited": false,
@@ -46,20 +41,25 @@
     "inherited": false,
     "value": "A128GCM"
   },
+  "remoteConsentRequestSigningAlgorithm": {
+    "inherited": false,
+    "value": "RS256"
+  },
   "remoteConsentResponseEncryptionAlgorithm": {
     "inherited": false,
     "value": "RSA-OAEP-256"
+  },
+  "remoteConsentResponseEncryptionMethod": {
+    "inherited": false,
+    "value": "A128GCM"
+  },
+  "remoteConsentResponseSigningAlg": {
+    "inherited": false,
+    "value": "PS256"
   },
   "requestTimeLimit": {
     "inherited": false,
     "value": 900
   },
-  "jwksUri": {
-    "inherited": false
-  },
-  "_type": {
-    "_id": "RemoteConsentAgent",
-    "name": "OAuth2 Remote Consent Service",
-    "collection": true
-  }
+  "userpassword": null
 }

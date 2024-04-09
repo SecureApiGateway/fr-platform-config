@@ -6,12 +6,6 @@
   "name": "organisation-view",
   "privileges": [
     {
-      "path": "managed/alpha_organization",
-      "name": "Alpha realm - Organizations",
-      "actions": [],
-      "permissions": [
-        "VIEW"
-      ],
       "accessFlags": [
         {
           "attribute": "name",
@@ -65,6 +59,12 @@
           "attribute": "number",
           "readOnly": true
         }
+      ],
+      "actions": [],
+      "name": "Alpha realm - Organizations",
+      "path": "managed/alpha_organization",
+      "permissions": [
+        "VIEW"
       ]
     }
   ],

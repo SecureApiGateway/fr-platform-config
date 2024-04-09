@@ -1,7 +1,7 @@
 {
   "_id": "PSD2 Customer Authentication",
   "_rev": "691293967",
-  "uiConfig": {},
+  "enabled": true,
   "entryNodeId": "9ea6a7ef-518a-4586-8f76-71865b1d0b18",
   "innerTreeOnly": false,
   "nodes": {
@@ -39,5 +39,5 @@
       "y": 250
     }
   },
-  "enabled": true
+  "uiConfig": {}
 }
