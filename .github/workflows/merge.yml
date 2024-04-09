@@ -12,7 +12,7 @@ jobs:
   checkcode:
     name: Check Code
     runs-on: ubuntu-latest
-     permissions:
+    permissions:
       contents: write
     steps:
       - name: Checkout Code
