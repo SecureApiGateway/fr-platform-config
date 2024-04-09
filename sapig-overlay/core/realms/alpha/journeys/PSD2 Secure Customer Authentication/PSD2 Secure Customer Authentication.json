@@ -3,6 +3,7 @@
   "_rev": "-262290789",
   "uiConfig": {},
   "entryNodeId": "ee0efdc1-9fba-4323-95ef-ec468f6ad30c",
+  "innerTreeOnly": false,
   "nodes": {
     "4785b3c1-5dc9-4883-b01e-2f1b6bfda50e": {
       "connections": {

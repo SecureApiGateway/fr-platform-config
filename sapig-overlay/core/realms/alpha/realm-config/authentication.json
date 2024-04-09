@@ -2,6 +2,7 @@
   "_id": "",
   "_rev": "-1957641651",
   "security": {
+    "addClearSiteDataHeader": true,
     "zeroPageLoginEnabled": false,
     "zeroPageLoginReferrerWhiteList": [],
     "zeroPageLoginAllowedWithoutReferrer": true,
