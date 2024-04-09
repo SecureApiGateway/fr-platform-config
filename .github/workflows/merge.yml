@@ -18,7 +18,7 @@ jobs:
       - name: Sort Json Files
         run: |
           npm -g install sort-json
-          cd sapig-overlays
+          cd fr-platform-config/sapig-overlays
           find ./ -name '*.json' -exec sort-json {} \;
       - name: Commit changes
         run: |
