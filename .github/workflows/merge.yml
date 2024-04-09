@@ -23,7 +23,7 @@ jobs:
       - name: Commit changes
         run: |
           git config user.name fropenbanking
-	        git config user.email obst@forgerock.com
-	        git add .
-	        git commit -m "Automated commit - Sorting json files - [NO CI]" || exit 0
-	        git push
+          git config user.email obst@forgerock.com
+          git add .
+          git commit -m "Automated commit - Sorting json files - [NO CI]" || exit 0
+          git push
