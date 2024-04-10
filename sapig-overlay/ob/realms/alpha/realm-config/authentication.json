@@ -34,7 +34,7 @@
     "loginFailureUrl": [],
     "loginPostProcessClass": [],
     "loginSuccessUrl": [
-      "/enduser/?realm=/alpha"
+      "/enduser/?realm=/&{esv.sapig.ob.identity.cloud.realm}"
     ],
     "userAttributeSessionMapping": [],
     "usernameGeneratorClass": "com.sun.identity.authentication.spi.DefaultUserIDGenerator",

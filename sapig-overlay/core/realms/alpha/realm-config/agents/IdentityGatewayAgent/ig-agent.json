@@ -10,5 +10,5 @@
     "inherited": false,
     "value": "Realm"
   },
-  "userpassword": "&{esv.ig.agent.password}"
+  "userpassword": "&{esv.sapig.core.ig.agent.password}"
 }

@@ -1,6 +1,0 @@
-{
-  "_id": "esv-mtls-baseurl",
-  "description": "",
-  "expressionType": "string",
-  "valueBase64": "${ESV_MTLS_BASEURL}"
-}

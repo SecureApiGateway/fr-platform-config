@@ -8,7 +8,7 @@
   },
   "jwkSet": {
     "inherited": false,
-    "value": "&{esv.rcs.jwks}"
+    "value": "&{esv.sapig.ob.rcs.jwks}"
   },
   "jwkStoreCacheMissCacheTime": {
     "inherited": false,
@@ -27,7 +27,7 @@
   },
   "remoteConsentRedirectUrl": {
     "inherited": false,
-    "value": "&{esv.baseurl}/rcs/ui/consent"
+    "value": "&{esv.sapig.ob.baseurl}/rcs/ui/consent"
   },
   "remoteConsentRequestEncryptionAlgorithm": {
     "inherited": false,
