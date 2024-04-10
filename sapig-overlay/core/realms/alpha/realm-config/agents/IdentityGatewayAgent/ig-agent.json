@@ -1,5 +1,5 @@
 {
-  "_id": "ig-agent",
+  "_id": "&{esv.sapig.core.ig.agent.username}",
   "_rev": "1394611646",
   "_type": {
     "_id": "IdentityGatewayAgent",
@@ -10,5 +10,5 @@
     "inherited": false,
     "value": "Realm"
   },
-  "userpassword": "&{esv.ig.agent.password}"
+  "userpassword": "&{esv.sapig.core.ig.agent.password}"
 }

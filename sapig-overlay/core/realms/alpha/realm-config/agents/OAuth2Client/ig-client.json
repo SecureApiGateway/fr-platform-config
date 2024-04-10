@@ -1,5 +1,5 @@
 {
-  "_id": "ig-client",
+  "_id": "&{esv.sapig.core.ig.client.username}",
   "_rev": "1070432342",
   "_type": {
     "_id": "OAuth2Client",
@@ -38,6 +38,6 @@
       "inherited": false,
       "value": "Active"
     },
-    "userpassword": "&{esv.ig.client.password}"
+    "userpassword": "&{esv.sapig.core.ig.client.password}"
   }
 }
