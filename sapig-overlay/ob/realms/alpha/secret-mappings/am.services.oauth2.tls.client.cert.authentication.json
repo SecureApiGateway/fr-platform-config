@@ -7,7 +7,7 @@
     "name": "Mappings"
   },
   "aliases": [
-    "esv-am-oauth2-ca-certs"
+    "esv-sapig-ob-am-oauth2-ca-certs"
   ],
   "secretId": "am.services.oauth2.tls.client.cert.authentication"
 }

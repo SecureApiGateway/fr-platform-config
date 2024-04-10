@@ -38,6 +38,6 @@
       "inherited": false,
       "value": "Active"
     },
-    "userpassword": "&{esv.ig.client.password}"
+    "userpassword": "&{esv.sapig.ob.ig.client.password}"
   }
 }
