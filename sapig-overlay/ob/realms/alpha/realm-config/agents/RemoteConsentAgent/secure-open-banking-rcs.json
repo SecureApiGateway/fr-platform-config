@@ -8,7 +8,7 @@
   },
   "jwkSet": {
     "inherited": false,
-    "value": "&{esv.rcs.jwks}"
+    "value": "&{esv.sapig.ob.rcs.jwks}"
   },
   "jwkStoreCacheMissCacheTime": {
     "inherited": false,
