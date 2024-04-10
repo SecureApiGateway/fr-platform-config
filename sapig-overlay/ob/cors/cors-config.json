@@ -56,7 +56,7 @@
         "OPTIONS"
       ],
       "acceptedOrigins": {
-        "$list": "&{esv.cors.accepted.origins}"
+        "$list": "&{esv.sapig.ob.cors.accepted.origins}"
       },
       "allowCredentials": true,
       "enabled": true,
