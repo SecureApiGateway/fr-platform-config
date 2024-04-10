@@ -1,5 +1,5 @@
 {
-  "_id": "&{esv.sapig.core.ig.agent.username}",
+  "_id": "ig-agent",
   "_rev": "1394611646",
   "_type": {
     "_id": "IdentityGatewayAgent",
