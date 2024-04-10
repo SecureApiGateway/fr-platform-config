@@ -1,6 +1,0 @@
-{
-  "_id": "esv-sapig-ob-cors-accepted-origins",
-  "description": "",
-  "expressionType": "list",
-  "valueBase64": "${ESV_SAPIG_OB_CORS_ACCEPTED_ORIGINS}"
-}
