@@ -297,24 +297,5 @@
     "devicePollInterval": 5,
     "deviceUserCodeCharacterSet": "234567ACDEFGHJKLMNPQRSTWXYZabcdefhijkmnopqrstwxyz",
     "deviceUserCodeLength": 8
-  },
-  "pluginsConfig": {
-    "accessTokenEnricherClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "accessTokenModificationPluginType": "SCRIPTED",
-    "accessTokenModificationScript": "39c08084-1238-43e8-857f-2e11005eac49",
-    "accessTokenModifierClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "authorizeEndpointDataProviderClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "authorizeEndpointDataProviderPluginType": "JAVA",
-    "authorizeEndpointDataProviderScript": "[Empty]",
-    "evaluateScopeClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "evaluateScopePluginType": "JAVA",
-    "evaluateScopeScript": "[Empty]",
-    "oidcClaimsClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "oidcClaimsPluginType": "SCRIPTED",
-    "oidcClaimsScript": "cf3515f0-8278-4ee3-a530-1bad7424c416",
-    "userCodeGeneratorClass": "org.forgerock.oauth2.core.plugins.registry.DefaultUserCodeGenerator",
-    "validateScopeClass": "org.forgerock.openam.oauth2.OpenAMScopeValidator",
-    "validateScopePluginType": "JAVA",
-    "validateScopeScript": "[Empty]"
   }
 }
