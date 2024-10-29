@@ -8,7 +8,7 @@
     "mat-icon": null,
     "order": [
       "_id",
-      "id",
+      "softwareId",
       "name",
       "description",
       "deleted",
@@ -94,12 +94,12 @@
         "userEditable": true,
         "viewable": true
       },
-      "id": {
+      "softwareId": {
         "deleteQueryConfig": false,
         "description": null,
         "isVirtual": false,
         "searchable": true,
-        "title": "API Client ID",
+        "title": "Software ID",
         "type": "string",
         "userEditable": true,
         "viewable": true
@@ -164,7 +164,7 @@
       }
     },
     "required": [
-      "id",
+      "softwareId",
       "name",
       "oauth2ClientId",
       "ssa",
