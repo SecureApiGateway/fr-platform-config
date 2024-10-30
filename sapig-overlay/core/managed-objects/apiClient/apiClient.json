@@ -2,9 +2,9 @@
   "iconClass": "fa fa-database",
   "name": "apiClient",
   "onRead": {
-    "type": "text/javascript",
     "globals": {},
-    "source": "if (object.softwareId == null) {\n  object.softwareId = object.id\n}"
+    "source": "if (object.softwareId == null) {\n  object.softwareId = object.id\n}",
+    "type": "text/javascript"
   },
   "schema": {
     "$schema": "http://forgerock.org/json-schema#",
@@ -109,16 +109,6 @@
         "userEditable": true,
         "viewable": true
       },
-      "softwareId": {
-        "deleteQueryConfig": false,
-        "description": null,
-        "isVirtual": false,
-        "searchable": true,
-        "title": "Software ID",
-        "type": "string",
-        "userEditable": true,
-        "viewable": true
-      },
       "jwks": {
         "searchable": false,
         "title": "JWK Set",
@@ -164,6 +154,16 @@
         "searchable": false,
         "title": "Roles",
         "type": "array",
+        "userEditable": true,
+        "viewable": true
+      },
+      "softwareId": {
+        "deleteQueryConfig": false,
+        "description": null,
+        "isVirtual": false,
+        "searchable": true,
+        "title": "Software ID",
+        "type": "string",
         "userEditable": true,
         "viewable": true
       },
