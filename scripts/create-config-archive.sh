@@ -38,7 +38,7 @@ echo "Creating config archive for SAPI-G type: ${sapigType} and FIDC realm: ${re
 cd "../sapig-overlay/${sapigType}"
 file_name="../../sapig-config-overlay-${sapigType}-${realm}-${commit_hash}.tar.gz"
 
-# Contains the config without the sapig-overlay parent dir
+# Contains the config without the core-overlay parent dir
 # Transforms the realmName placeholder found in paths to the desired realm name e.g. alpha
 tar -czf "${file_name}" --transform "s/realmName\(.*\)/${realm}\1/"  ./*
 

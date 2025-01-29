@@ -1,0 +1,6 @@
+{
+  "_id": "esv-sapig-ob-trusteddirurl",
+  "description": "",
+  "expressionType": "string",
+  "valueBase64": "${ESV_SAPIG_OB_TRUSTEDDIRURL}"
+}
