@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - sustaining/*
     paths-ignore:
       - README.md
 
